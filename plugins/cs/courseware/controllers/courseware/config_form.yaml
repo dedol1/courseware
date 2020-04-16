@@ -1,0 +1,11 @@
+name: Courseware
+modelClass: CS\Courseware\Models\Courseware
+form: $/cs/courseware/models/courseware/fields.yaml
+defaultRedirect: cs/courseware/courseware
+create:
+    redirect: 'cs/courseware/courseware/update/:id'
+    redirectClose: cs/courseware/courseware
+update:
+    redirect: cs/courseware/courseware
+    redirectClose: cs/courseware/courseware
+preview: {  }

@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table cs_courseware_'
+    - builder_table_create_cs_courseware_.php
+1.0.3:
+    - 'Updated table cs_courseware_'
+    - builder_table_update_cs_courseware_.php
+1.0.4:
+    - 'Updated table cs_courseware_'
+    - builder_table_update_cs_courseware__2.php

@@ -1,0 +1,26 @@
+title = "material"
+url = "/material/:id"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "CS\Courseware\Models\Courseware"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "name"
+notFoundMessage = "Record not found"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+
+    <h2>{{ record.name }}</h2>
+    <h4>{{ record.year }}</h4>
+    <h3>description</h3>
+    {{ record.description|raw }}
+
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}

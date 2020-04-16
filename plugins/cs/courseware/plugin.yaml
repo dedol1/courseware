@@ -1,0 +1,11 @@
+plugin:
+    name: 'cs.courseware::lang.plugin.name'
+    description: 'cs.courseware::lang.plugin.description'
+    author: CS
+    icon: oc-icon-book
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Course material'
+        url: cs/courseware/courseware
+        icon: icon-book

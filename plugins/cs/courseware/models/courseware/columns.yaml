@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: 'course title'
+        type: text
+        searchable: true
+        sortable: true
+    year:
+        label: level
+        type: text
+        sortable: true

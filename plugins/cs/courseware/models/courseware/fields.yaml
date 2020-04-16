@@ -1,0 +1,21 @@
+fields:
+    name:
+        label: 'course title'
+        span: full
+        type: text
+    description:
+        label: description
+        size: ''
+        span: full
+        type: richeditor
+    year:
+        label: level
+        span: auto
+        type: text
+    slug:
+        label: slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text

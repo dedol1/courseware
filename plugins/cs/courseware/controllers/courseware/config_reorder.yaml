@@ -1,0 +1,4 @@
+title: Courseware
+modelClass: CS\Courseware\Models\Courseware
+toolbar:
+    buttons: reorder_toolbar

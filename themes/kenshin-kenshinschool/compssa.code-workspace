@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "/opt/lampp/htdocs/compssa/themes/demo"
+		},
+		{
+			"path": "/opt/lampp/htdocs/compssa/themes/compssa"
+		}
+	],
+	"settings": {}
+}
